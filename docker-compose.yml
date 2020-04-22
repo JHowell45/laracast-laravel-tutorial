@@ -1,1 +1,10 @@
-version: '2'
+version: "3"
+services:
+  builder:
+    build: ./builders
+    volumes:
+      - base-app:blog
+  mysql:
+    image: mysql
+volumes:
+  base-app:
