@@ -9,6 +9,6 @@
 # CMD php artisan serve --host=0.0.0.0 --port=8181
 # EXPOSE 8181
 
-FROM php:7.2-fpm-alpine
+FROM php:7.3-fpm-alpine
 
 RUN docker-php-ect-install pdo pdo-Mysql
