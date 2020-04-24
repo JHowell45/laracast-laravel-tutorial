@@ -3,7 +3,7 @@ networks:
   laravel:
 services:
   nginx:
-    image: nginx-stable-alpine
+    image: nginx:stable-alpine
     container_name: laravel-nginx
     ports:
       - 8080:80
@@ -20,8 +20,8 @@ services:
     container_name: laravel-mysql
     restart: unless-stopped
     tty: true
-    ports:
-      - 3306:3306
+    # ports:
+    #   - 3306:3306
     environment:
       MYSQL_DATABASE: homestead
       MYSQL_USER: homestead

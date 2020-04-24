@@ -1,1 +1,2 @@
-docker run --rm -v $(pwd):/app composer install
+docker run --rm --interactive --volume $(pwd):/app composer install
+
