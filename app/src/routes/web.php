@@ -11,6 +11,25 @@
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+// Route::get('/string', function () {
+//     return 'hello world';
+// });
+
+// Route::get('/array', function () {
+//     return ['foo' => 'bar'];
+// });
+
+// Route::get('/test', function () {
+//     return view('test');
+// });
+
+
 Route::get('/', function () {
-    return view('welcome');
+    $name = request('name');
+    return view('test');
 });
