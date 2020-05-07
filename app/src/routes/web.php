@@ -15,7 +15,6 @@
 //     return view('welcome');
 // });
 
-
 // Route::get('/string', function () {
 //     return 'hello world';
 // });
