@@ -30,6 +30,7 @@
 
 
 Route::get('/', function () {
-    $name = request('name');
-    return view('test');
+    return view('test', [
+      'name' => request('name')
+    ]);
 });

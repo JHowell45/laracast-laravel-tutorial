@@ -15,6 +15,11 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Test Complete!</h1>
+  <h1>Playground</h1>
+  <!-- escapes the data -->
+  <h1>{{ $name }}</h1>
+  <!-- does not escape the data -->
+  <h1>{{!! $name !!}}</h1>
+
 </body>
 </html>
