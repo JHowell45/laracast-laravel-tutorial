@@ -33,3 +33,8 @@ Route::get('/', function () {
       'name' => request('name')
     ]);
 });
+
+
+Route::get('/posts/{post}', function () {
+  return view('post');
+});
