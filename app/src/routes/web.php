@@ -41,3 +41,8 @@ Route::get('/', function () {
 
 // Episode 8 -- Using controllers
 Route::get('posts/{post}', 'PostsController@show');
+
+// Episode 14 -- Layout Pages
+Route::get('/contact', function () {
+	return view('contact');
+});
