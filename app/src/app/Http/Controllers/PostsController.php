@@ -12,7 +12,7 @@ class PostsController extends Controller
 	public function show($slug) 
 	{
 		return view('post', [
-			'post' => Post::where('slug', $slug)->firstOrFail();
+			'post' => Post::where('slug', $slug)->firstOrFail()
 		]);
 	}
 }
