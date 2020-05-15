@@ -1,69 +1,58 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
 
-        <title>Laravel</title>
+Name       : SimpleWork 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140225
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+	<title></title>
 
-            .full-height {
-                height: 100vh;
-            }
+	<meta name="keywords" content="" />
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+	<meta name="description" content="" />
 
-            .position-ref {
-                position: relative;
-            }
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+	<link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
 
-            .content {
-                text-align: center;
-            }
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        @yield('content')
-    </body>
+</head>
+<body>
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">SimpleWork</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
+					<li><a href="#" accesskey="2" title="">Our Clients</a></li>
+					<li><a href="" accesskey="3" title="">About Us</a></li>
+					<li><a href="#" accesskey="4" title="">Careers</a></li>
+					<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="header-featured">
+			<div id="banner-wrapper">
+				<div id="banner" class="container">
+					<h2>Maecenas luctus lectus</h2>
+					<p>This is <strong>SimpleWork</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
+					<a href="#" class="button">Etiam posuere</a> </div>
+			</div>
+		</div>
+	</div>
+	@yield ('content')
+</body>
 </html>
