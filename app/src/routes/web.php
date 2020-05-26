@@ -53,4 +53,10 @@ Route::get('/about', function () {
 	]);
 });
 
+Route::get('/articles', function () {
+	return view('articles', [
+		'articles' => App\Article::latest()->get()
+	]);
+});
+
 Route::get('/articles/{article}', 'ArticlesController@show');
