@@ -49,6 +49,6 @@ Route::get('/contact', function () {
 
 Route::get('/about', function () {
 	return view('about', [
-		'articles' => App\Article::latest()->get();
+		'articles' => App\Article::latest()->get()
 	]);
 });
