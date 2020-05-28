@@ -14,7 +14,7 @@
 					<h3>
 						<a href="/articles/{{ $article->id }}">{{ $article->title }}</a>
 					</h3>
-					<p><img src="images/banner.jpg" alt="" class="image image-full" /> </p>
+					<p><img src="/images/banner.jpg" alt="" class="image image-full" /> </p>
 					<p>{{ $article->excerpt }}</p>
 				</li>
 				@endforeach
