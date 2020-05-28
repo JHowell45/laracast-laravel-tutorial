@@ -36,4 +36,8 @@ class ArticlesController extends Controller
 
 		return redirect('/articles');
 	}
+
+	public function edit()
+	{
+	}
 }
