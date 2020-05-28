@@ -5,8 +5,6 @@
 <div id="wrapper">
 	<div id="page" class="container">
 		<div id="content">
-			<div class="title">
-				<h2>Articles</h2>
 		</div>
 
 		<div>
