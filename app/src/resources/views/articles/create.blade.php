@@ -1,11 +1,17 @@
 @extends('layout')
 
+@section('head')
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+@endsection
+
 @section('content')
 	<div id="wrapper">
 		<div id="page"class="Container">
 			<h1 class="heading has-text-weight-bold is-size-4">New Article</h1>
 
 			<form method="POST" action="/articles">
+				@csrf
+
 				<div class="field">
 					<label class="label" for="title">Title</label>
 
