@@ -12,7 +12,7 @@
 				@foreach ($articles as $article)
 				<li class="first">
 					<h3>
-						<a href="/articles/{{ $article->id }}">{{ $article->title }}</a>
+						<a href="/articles/{{ route('articles.show', $article) }}</a>
 					</h3>
 					<p><img src="/images/banner.jpg" alt="" class="image image-full" /> </p>
 					<p>{{ $article->excerpt }}</p>
