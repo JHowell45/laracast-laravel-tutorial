@@ -27,7 +27,7 @@ class ArticlesController extends Controller
 	{
 		Article::create($this->validateArticle());
 
-		return route('articles.index');
+		return redirect(route('articles.index'));
 	}
 
 	public function edit(Article $article)
