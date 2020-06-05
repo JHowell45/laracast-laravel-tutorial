@@ -26,7 +26,9 @@ class ArticlesController extends Controller
 
 	public function create()
 	{
-		return view('articles.create');
+		return view('articles.create', [
+			'tags' => Tag::all()
+		]);
 	}
 
 	public function store()
